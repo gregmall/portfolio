@@ -1,3 +1,9 @@
-h1 {
-  font-size: 200px;
+
+.main{
+  
+  background-image: url(https://cdn.lowgif.com/small/8930460190e8d11d-.gif);
+  h1 {
+    font-size: 200px;
+    color: magenta
+  }
 }
