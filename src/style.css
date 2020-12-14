@@ -1,5 +1,4 @@
-
-.app{
+body {
   margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,8 +7,4 @@
   min-height: 100vh;
   
   background-image: url(https://www.teahub.io/photos/full/84-840158_portland-oregon-desktop-background.jpg);
-  h1 {
-    font-size: 200px;
-    color: magenta;
-  }
 }
