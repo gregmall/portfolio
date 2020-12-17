@@ -6,6 +6,7 @@ import {
   Switch
 } from 'react-router-dom';
 import Header from '../Header/Header';
+import Home from '../Home';
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
      
     <div className={styles.app}>
     <Header />
-  <h1>This is Greg's Portfolio Site.  WELCOME!!! HOPE YOU LIKE HUGE TEXT!</h1>;
+    <Home />
+  
   </div>
   </Router>
   )
