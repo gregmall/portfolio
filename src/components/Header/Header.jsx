@@ -8,7 +8,7 @@ const Header = () =>{
   <a href="#0">Projects</a>
   <a href="#0">Bio</a>
   <a href="#0">Contact</a>
-  <a href="#0">Four</a>
+  
 </nav>  
     </header>
   )
