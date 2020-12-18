@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
 .header {
-  height: 100px;
+  height: 75px;
   color: white;
   background-color:black;
   opacity: .7;
@@ -31,25 +31,23 @@
     text-shadow: rgba(0,0,0,.4) 0 1px 0;
     color: black;
     font-size: 18px;
-    font-family: Georgia, serif;
+    font-family: 'News Cycle', sans-serif;
     text-decoration: none;
     vertical-align: middle;
     }
  button:hover {
-    border-top-color: #ade80c;
-    background: #ade80c;
+    border-top-color: #0faa93;
+    background: #0faa93;
     color: #0d040d;
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px)
     }
  button:active {
     border-top-color: #1b435e;
     background: #1b435e;
     }
-  a:link{
-    text-decoration: none;
-  }
-  a:hover{
-    cursor: pointer;
-  }
+
+
 
 
 }
