@@ -5,9 +5,9 @@ const Header = () =>{
   return (
     <header className={styles.header}>
    <nav role='navigation'>
-  <a href="#0">Projects</a>
-  <a href="#0">Bio</a>
-  <a href="#0">Contact</a>
+  <a href="#0"><button>Projects</button></a>
+  <a href="#0"><button>Bio</button></a>
+  <a href="#0"><button>Contact</button></a>
   
 </nav>  
     </header>

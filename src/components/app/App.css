@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
 .app{
   margin: 0;
   background-size: cover;
@@ -7,7 +7,7 @@
   background-position: center;
   min-height: 100vh;
   
-  background-image: url(https://www.teahub.io/photos/full/84-840158_portland-oregon-desktop-background.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/29/22/11/minimal-2355107_960_720.jpg);
 
 }
 .home {
@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: 'News Cycle', sans-serif;
  
   
  
@@ -26,20 +27,20 @@
 }
 .main{
   border-radius: 1em;
-  background: black;
+  background-color:black;
   color: white;
   width: 50%;
   padding: 20px;
   resize: both;
   overflow: auto;
-  opacity: .7;
+  opacity: .5;
 }
 .profile{
   img{
     padding: 10px;
     margin: 10px;
   border-radius: 20em;
-  width: 400px;
+  width: 300px;
   
   }
 }
