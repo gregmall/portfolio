@@ -5,9 +5,10 @@ const Header = () =>{
   return (
     <header className={styles.header}>
    <nav role='navigation'>
-  <a href="#0"><button>Projects</button></a>
-  <a href="#0"><button>Bio</button></a>
-  <a href="#0"><button>Contact</button></a>
+  <a href="/projects"><button>Projects</button></a>
+  <a href="/bio"><button>Bio</button></a>
+  <a href="/contact"><button>Contact</button></a>
+  <a href="/"><button>Home</button></a>
   
 </nav>  
     </header>
