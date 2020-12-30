@@ -1,0 +1,47 @@
+.Contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'News Cycle', sans-serif;
+}
+span{
+  display: none;
+}
+a{
+  text-decoration: none;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  margin: 22px;
+}
+.grow img{
+  transition: 1s ease;
+}
+  
+.grow img:hover{
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: 1s ease;
+}
+
+.links{
+  display:inline-block;
+position:relative;
+max-width:160px;
+}
+.links:hover{
+  z-index:10;
+  span {
+    z-index:10;display:inline; padding:14px 20px;
+    margin-top:60px; margin-left:-160px;
+    width:300px; line-height:16px;
+}
+}
+
+
+
+
