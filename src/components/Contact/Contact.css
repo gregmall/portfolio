@@ -5,43 +5,74 @@
   flex-direction: column;
   font-family: 'News Cycle', sans-serif;
 }
+
 span{
-  display: none;
+  visibility: hidden;
+  position: absolute;
+  left: 60%;
+  margin-top: 10px;
+  padding: .55rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  white-space: nowrap;
+  color: #000;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1),
+    0 5px 15px rgba(0, 0, 0, 0.07);
+
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0;
+  transition:  0.2s ease-in;
+  
 }
 a{
   text-decoration: none;
+  
 }
 
 img {
   width: 100px;
   height: auto;
-  margin: 22px;
+  margin: 30px;
 }
 .grow img{
   transition: 1s ease;
 }
+.box{
   
-.grow img:hover{
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
+  justify-content: center;
+  align-items: center;
+}
+  
+.grow img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
   transition: 1s ease;
 }
-
-.links{
-  display:inline-block;
-position:relative;
-max-width:160px;
-}
-.links:hover{
-  z-index:10;
-  span {
-    z-index:10;display:inline; padding:14px 20px;
-    margin-top:60px; margin-left:-160px;
-    width:300px; line-height:16px;
-}
-}
+.grow:hover .box{
+  filter:blur(3px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
 
 
+}
+.grow:hover .box:hover{
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  
+  span{
+    visibility: visible;
+    left: 100%;
+    opacity: 0.9;
+  }
+}
 
 
