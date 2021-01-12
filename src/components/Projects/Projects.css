@@ -18,9 +18,13 @@
     display:flex;
     justify-content: space-around;
   }
+ h4{
+    text-align: center;
+    color:crimson;
+  }
 }
 .main:hover{
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 .home {
   
