@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.title{
+  
+  height: 150px;
+  
+
+  
+ 
+  
+  
+  font-size: 25px;
+  
+   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #2184cf; 
+  text-shadow: 0 0 5px #2bb4a0, 0 0 15px #09916c, 0 0 20px #00ff5e, 0 0 40px #0d7a81, 0 0 60px #0b5897, 0 0 10px #064987, 0 0 98px #054d91;
+    color: #25c695;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+  position: relative;
+  text-align: left;
+}
+
+.sidebar {
+  position: fixed;
+  width: 15%;
+  height: 100vh;
+  background: #312450;
+  
+  font-size: 0.65em;
+}
+
+
+.nav {
+  position: relative;
+  margin: 0 15%;
+  text-align: right;
+  top: 15%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+.nav {
+  ul {
+  list-style: none;
+  }
+  
+  li {
+    position: relative;
+    margin: 3.2em 0;
+  }
+    
+    a {
+      line-height: 5em;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.4em;
+      color: green;
+      display: block;
+      transition: all ease-out 300ms;
+    }
+    a:hover{
+      color: white;
+      transform: scale(1.3);
+      transition: 1s ease;
+      
+    }
+    
+ 
+  }
+
+

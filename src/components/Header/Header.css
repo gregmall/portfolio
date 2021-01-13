@@ -1,52 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 .header {
-  height: 75px;
+  height: 200px;
   color: white;
-  background-color:black;
-  opacity: .7;
-  font-family: 'News Cycle', sans-serif;
-  nav{
+
+  
+  position: fixed;
+  
+  width: 100%;
+  font-size: 20px;
+  
+   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+  color: #2184cf; 
+  text-shadow: 0 0 5px #2bb4a0, 0 0 15px #09916c, 0 0 20px #00ff5e, 0 0 40px #0d7a81, 0 0 60px #0b5897, 0 0 10px #064987, 0 0 98px #054d91;
+    color: #25c695;
+  font-family: "Sacramento", cursive;
   text-align: center;
-  font-size: 40px;
-  display: flex;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+  display:flex;
+  justify-content: space-between;
+  align-items: right;
   
+ h3{
+    float:right;
+ }
+ h5{
+    float: right;
+ }
   
-  justify-content: space-around;
-  }
-  button {
-    border-top: 1px solid #96d1f8;
-    background: #a1c3da;
-    background: -webkit-gradient(linear, left top, left bottom, from(#adb4b8), to(#169df7));
-    background: -webkit-linear-gradient(top, #adb4b8, #169df7);
-    background: -moz-linear-gradient(top, #adb4b8, #169df7);
-    background: -ms-linear-gradient(top, #adb4b8, #169df7);
-    background: -o-linear-gradient(top, #adb4b8, #169df7);
-    padding: 7.5px 15px;
-    -webkit-border-radius: 11px;
-    -moz-border-radius: 11px;
-    border-radius: 11px;
-    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-    box-shadow: rgba(0,0,0,1) 0 1px 0;
-    text-shadow: rgba(0,0,0,.4) 0 1px 0;
-    color: black;
-    font-size: 18px;
-    font-family: 'News Cycle', sans-serif;
-    text-decoration: none;
-    vertical-align: middle;
-    
-    }
- button:hover {
-    border-top-color: #0faa93;
-    background: #0faa93;
-    color: #0d040d;
-    -webkit-transform: translateY(8px);
-    transform: translateY(8px)
-    }
- button:active {
-    border-top-color: #1b435e;
-    background: #1b435e;
-    }
 
 
 

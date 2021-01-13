@@ -6,7 +6,7 @@
   padding: 20px;
   resize: both;
   overflow: auto;
-  opacity: .5;
+  opacity: .7;
   box-shadow: 10px 10px 5px grey;
   margin:20px;
   transition: transform .2s;
@@ -33,4 +33,6 @@
   justify-content: center;
   flex-direction: column;
   font-family: 'News Cycle', sans-serif;
+  
+  
 }

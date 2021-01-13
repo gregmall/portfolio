@@ -10,13 +10,16 @@ import Home from '../Home';
 import Bio from '../Bio/Bio';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+import Sidebar from '../Sidebar/Sidebar';
 
 export default function App() {
   return (
     <Router>
      
     <div className={styles.app}>
+    <Sidebar />
     <Header />
+   
     <Route exact path="/" component={Home} />
         <Route exact path ="/projects" component= {Projects} />
         <Route exact path ="/bio" component ={Bio} />
