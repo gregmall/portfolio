@@ -17,6 +17,7 @@
   justify-content: center;
   flex-direction: column;
   font-family: 'News Cycle', sans-serif;
+  
  
   
  
@@ -35,6 +36,7 @@
   overflow: auto;
   opacity: .7;
   box-shadow: 10px 10px 5px grey;
+  
 }
 .profile{
   img{

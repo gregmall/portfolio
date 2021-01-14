@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 .header {
-  height: 200px;
+  height: 75px;
   color: white;
-
   
-  position: fixed;
+  position: relative;
+  
   
   width: 100%;
   font-size: 20px;
@@ -20,15 +20,19 @@
   animation: blink 12s infinite;
   -webkit-animation: blink 12s infinite;
   display:flex;
-  justify-content: space-between;
-  align-items: right;
   
- h3{
-    float:right;
- }
- h5{
-    float: right;
- }
+  justify-content: flex-end;
+  
+  .title{
+    position: fixed;
+    list-style-type: none;
+    margin-right:30px;
+    
+
+  }
+  
+
+ 
   
 
 
