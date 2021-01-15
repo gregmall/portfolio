@@ -11,6 +11,7 @@
   margin:20px;
   transition: transform .2s;
   
+  
   h2{
     text-align: center;
   }
@@ -26,6 +27,14 @@
 .main:hover{
   transform: scale(1.05);
 }
+.page{
+  display:flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-right:15px;
+}
 .home {
   
   display: flex;
@@ -33,6 +42,7 @@
   justify-content: center;
   flex-direction: column;
   font-family: 'News Cycle', sans-serif;
+  padding-left: 140px;
   
   
 }

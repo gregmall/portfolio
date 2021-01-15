@@ -1,15 +1,16 @@
 import React from 'react'
 import styles from './Header.css'
+import { useParams } from 'react-router-dom'
 
-const Header = () =>{
+export default function Header(){
+  let { page }  = useParams();
+  console.log(page)
   return (
     <header className={styles.header}>
-   <ul className={styles.title}>
-   <li><h1>Greg Mall</h1></li>
-   <li><h4>Software Engineer</h4></li>
-   </ul>
+      <h1>{page}</h1>
+  
     </header>
   )
 }
-export default Header;
+
 

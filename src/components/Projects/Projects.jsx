@@ -2,6 +2,10 @@ import React from 'react'
 import styles from './Projects.css';
 export default function Projects() {
   return (
+    <>
+    <div className={styles.page}>
+      <h1>Projects</h1>
+      </div>
     <div className={styles.home}>
       <div className = {styles.main}>
         <h2>Project Vobot</h2>
@@ -32,5 +36,6 @@ export default function Projects() {
         <p>Canary is a learning platform that makes virtual learning environments that engage students through movement. This app was built during a week long sprint. We utilized socket.io technology to create a virtual classroom and TensorFlow pose recognition to detect gestures as responses. I was tasked with implementing the calibration page of the app that allowed users to determine what gestures they would use as responses</p>
       </div>
     </div>
+    </>
   )
 }

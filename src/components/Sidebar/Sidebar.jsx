@@ -5,9 +5,14 @@ export default function Sidebar() {
     <div>
       <aside className={styles.sidebar}>
       <ul className={styles.title}>
+      
+   <li><h1>Greg Mall</h1></li>
+   <li><h4>Software Engineer</h4></li>
+   </ul>
 
-      </ul>
+     
     <nav className={styles.nav}>
+      
       <ul className={styles.active}>
         <li ><a href="/">Home</a></li>
         <li><a href="/projects">Projects</a></li>

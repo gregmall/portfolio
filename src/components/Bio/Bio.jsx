@@ -3,23 +3,60 @@ import Iframe from 'react-iframe'
 import styles from './Bio.css';
 export default function Bio() {
   return (
+    <>
+      <div className={styles.page}>
+      <h1>Bio</h1>
+      </div>
+    
     <div className={styles.home}>
-   <Iframe url="https://bandcamp.com/EmbeddedPlayer/album=2964969569/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" 
-   width="350px"
-   height="470"
+      <div className={styles.about}>
+        <p>This is where a lot of stuff about me will go.  I have to come up with some cool things and stuff</p>
+      </div>
+    
+      <div className={styles.music}>
+        <h1>....music</h1>
+        <div>
+        <p>I've been playing a musical instrument of some kind since i was 8 years old.  I've always been drawn the the creativity of sound.  I joined my first band in highschool and have been playing in one band or another ever since.  </p>
+        <h3>Cede the Clouds</h3>
+        <img src="https://scontent.fhio2-2.fna.fbcdn.net/v/t1.0-9/48368437_2218654741585377_2919862245498290176_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=sYsOgRmawK8AX-IETVk&_nc_ht=scontent.fhio2-2.fna&oh=681768f92c7ae30b85ebd6560dd7d8c7&oe=60271CC2" />
+   <Iframe url="https://bandcamp.com/EmbeddedPlayer/album=2964969569/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=2130197304/transparent=true/" 
+   width="400px"
+   height="120px"
    id="myId"
    
    display="initial"
    />
+   </div>
+<div>
+   <h3>Feral Pigs</h3>
+   <img src="https://scontent.fhio2-2.fna.fbcdn.net/v/t1.0-9/430573_367092509968069_1524082485_n.jpg?_nc_cat=104&ccb=2&_nc_sid=cdbe9c&_nc_ohc=rZVLShOFhJ0AX_74K9D&_nc_ht=scontent.fhio2-2.fna&oh=d98566eebfb146bef41628f56b63318e&oe=602515EE"/>
+   <Iframe url="https://www.reverbnation.com/widget_code/html_widget/artist_2390217?widget_id=55&pwc[song_ids]=17216491&context_type=song&spoid=artist_2390217"
+   id="myId"
+   
+   display="initial"/>
+ </div>
+ <div>
+   <h3>Secondafter</h3>
+   <img src="https://scontent.fhio2-1.fna.fbcdn.net/v/t1.0-9/5200_117486697215_581316_n.jpg?_nc_cat=111&ccb=2&_nc_sid=cdbe9c&_nc_ohc=UgyrHA6exJoAX-SRhrf&_nc_ht=scontent.fhio2-1.fna&oh=cbf812bcf68756e587a207de53fa6c2a&oe=6025103A"/>
+   
+   <Iframe url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/614894913&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+   id="myId"
+   
+   display="initial"/>
+ </div>
+   </div>
+   <div>
+     <h1>...art</h1>
    <Iframe url="https://www.youtube.com/embed/xQi3GUlW3K4"
     width="350px"
     height="470" 
     frameBorder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
     allowFullScreen />
-        
+        </div>
 
 </div>
+</>
   )
 }
 

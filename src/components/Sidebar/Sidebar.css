@@ -5,7 +5,7 @@
   height: 150px;
   
 
-  
+  list-style-type: none;
  
   
   
@@ -58,7 +58,7 @@
       text-transform: uppercase;
       text-decoration: none;
       letter-spacing: 0.4em;
-      color: green;
+      color: #00ff5e;
       display: block;
       transition: all ease-out 300ms;
     }
