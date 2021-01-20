@@ -10,7 +10,8 @@ export default function Bio() {
     
     <div className={styles.home}>
       <div className={styles.about}>
-        <p>This is where a lot of stuff about me will go.  I have to come up with some cool things and stuff</p>
+        <h1>...in the beginning...</h1>
+        <p>I was born and raised in the Central Valley of California to an farming family. At an early age, I was instilled with the value of hard work. At at early age, I learned that a farmer's life is not 9-5, rather sun up to completion of tasks.  This is a work ethic that I carry to this day.  </p>
       </div>
     
       <div className={styles.music}>
