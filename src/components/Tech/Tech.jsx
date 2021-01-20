@@ -1,0 +1,49 @@
+import React from 'react'
+import styles from './Tech.css';
+export default function Tech() {
+  return (
+    <>
+      <div className = {styles.Tech}>
+      <p>
+      <h1>Tech Stack</h1>
+      </p>
+      </div>
+      <div className={styles.content}>
+      <div className={styles.dev}>
+        <h2>Development</h2>
+        <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png"/>
+        <img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/html5-512.png" />
+        <img src="https://cdn.iconscout.com/icon/free/png-256/css-37-226088.png" />
+
+      </div>
+      <div className={styles.frameworks}>
+        <h2>Frameworks</h2>
+        <img src="https://i.pinimg.com/originals/f3/47/70/f34770503b90f26ea389f557500ff825.png"/>
+        <img src="https://cdn.iconscout.com/icon/free/png-512/nodejs-2-226035.png" />
+        <img src="https://codedistrict.io/wp-content/uploads/2017/12/reduxLogo.png" />
+        
+
+      </div>
+      <div className={styles.tools}>
+     
+        <h2>Dev Tools</h2>
+        <img src="https://visualpharm.com/assets/624/Github-595b40b85ba036ed117dc155.svg" />
+        <img src="https://cdn.iconscout.com/icon/free/png-512/heroku-225989.png" />
+        <img src="https://cdn.worldvectorlogo.com/logos/netlify.svg"/>
+      </div>
+      <div className={styles.testing}>
+        <h2>Testing Suites</h2>
+        <img src ="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jest-512.png" />
+        <img src="https://camo.githubusercontent.com/268d38a4e2d2a7fb1beacd8f8fbed0ae919edc0f13f60d3c10d30d1ec0d797e3/687474703a2f2f692e696d6775722e636f6d2f5935597a6f44752e706e67" />
+      </div>
+      <div className={styles.Database}>
+        <h2>Database</h2>
+        <img src="https://cdn.iconscout.com/icon/free/png-512/postgresql-11-1175122.png" />
+      </div>
+      
+    </div>
+    </>
+    
+  )
+}
+

@@ -11,6 +11,8 @@ import Bio from '../Bio/Bio';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Sidebar from '../Sidebar/Sidebar';
+import resume from './resume';
+import Tech from '../Tech/Tech';
 
 export default function App() {
   return (
@@ -20,10 +22,12 @@ export default function App() {
     <Sidebar />
     <Header />
    
-    <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/techstack" component={Tech} />
         <Route exact path ="/projects" component= {Projects} />
         <Route exact path ="/bio" component ={Bio} />
         <Route exact path = "/contact" component={Contact} />
+        <Route exact path = "/resume" component= {resume} />
    
   
   </div>

@@ -15,6 +15,7 @@ export default function Sidebar() {
       
       <ul className={styles.active}>
         <li ><a href="/">Home</a></li>
+        <li><a href="/techstack">Tech Stack</a></li>
         <li><a href="/projects">Projects</a></li>
         <li><a href="/bio">Bio</a></li>
         <li><a href="/contact">Contact</a></li>
