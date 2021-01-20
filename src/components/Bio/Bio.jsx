@@ -48,6 +48,7 @@ export default function Bio() {
    </div>
    <div>
      <h1>...art</h1>
+     <p>I've always been an artist and a maker so when I was introduced to the art of glass blowing I was hooked!  I loved it so much I made it a career for 20 years.  Its the perfect combination of technique and vision.  </p>
    <Iframe url="https://www.youtube.com/embed/xQi3GUlW3K4"
     width="350px"
     height="470" 
