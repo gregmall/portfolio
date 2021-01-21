@@ -29,16 +29,17 @@ export default function Tech() {
         <h2>Dev Tools</h2>
         <img src="https://visualpharm.com/assets/624/Github-595b40b85ba036ed117dc155.svg" />
         <img src="https://cdn.iconscout.com/icon/free/png-512/heroku-225989.png" />
-        <img src="https://cdn.worldvectorlogo.com/logos/netlify.svg"/>
+        <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/netlify-512.png"/>
       </div>
       <div className={styles.testing}>
         <h2>Testing Suites</h2>
-        <img src ="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jest-512.png" />
+        <img src ="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jest-512.png"  />
         <img src="https://camo.githubusercontent.com/268d38a4e2d2a7fb1beacd8f8fbed0ae919edc0f13f60d3c10d30d1ec0d797e3/687474703a2f2f692e696d6775722e636f6d2f5935597a6f44752e706e67" />
       </div>
       <div className={styles.Database}>
         <h2>Database</h2>
         <img src="https://cdn.iconscout.com/icon/free/png-512/postgresql-11-1175122.png" />
+        <img src="https://cdn.iconscout.com/icon/free/png-512/mysql-19-1174939.png"/>
       </div>
       
     </div>
