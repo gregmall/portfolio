@@ -4,9 +4,9 @@ export default function Tech() {
   return (
     <>
       <div className = {styles.Tech}>
-      <p>
+     
       <h1>Tech Stack</h1>
-      </p>
+      
       </div>
       <div className={styles.content}>
       <div className={styles.dev}>
