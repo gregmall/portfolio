@@ -4,11 +4,7 @@ export default function Sidebar() {
   return (
     <div>
       <aside className={styles.sidebar}>
-      <ul className={styles.title}>
-      
-   <li><h1>Greg Mall</h1></li>
-   <li><h4>Software Engineer</h4></li>
-   </ul>
+   
 
      
     <nav className={styles.nav}>

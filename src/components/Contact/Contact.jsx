@@ -3,9 +3,9 @@ import styles from './Contact.css';
 export default function Contact() {
   return (
     <div className = {styles.Contact}>
-      <p>
+    
       <h1>Contact</h1>
-      </p>
+     
       <div className = {styles.grow}>
       
       <div className={styles.box}><a href="https://github.com/gregmall" target="blank"><img src="https://visualpharm.com/assets/624/Github-595b40b85ba036ed117dc155.svg" /><span>GITHUB</span></a></div>
