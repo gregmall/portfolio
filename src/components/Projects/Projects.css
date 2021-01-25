@@ -10,6 +10,13 @@
   box-shadow: 10px 10px 5px grey;
   margin:20px;
   transition: transform .2s;
+  img{
+    float:right;
+    width:250px;
+  }
+  a{
+    color: white;
+  }
   
   
   h1{
