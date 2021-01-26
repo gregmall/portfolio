@@ -5,7 +5,7 @@
   justify-content: center;
   flex-direction: column;
   font-family: 'News Cycle', sans-serif;
-  padding-left: 140px;
+  
   img{
     width: 150px;
     background-color: white;
@@ -19,6 +19,35 @@
   }
   p{
     width: 500px;
+  }
+  .cede {
+    width: 650px;
+    color: white;
+    opacity: .7;
+    padding: 10px;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/5935670/thumb/1.jpg');
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+  }
+  .pigs{
+    background-image: url('https://1388rt3s63ww26xq2217rr5my4t-wpengine.netdna-ssl.com/wp-content/uploads/Guide-Outdoors-OffSeason-Hog-Hunting-1024x346.jpg');
+    width: 650px;
+    color: white;
+    opacity: .7;
+    padding: 10px;
+    border-radius: 5px;
+
+  }
+  .secondafter{
+    width: 650px;
+    color: white;
+    opacity: .7;
+    padding: 10px;
+    background-image: url('https://seyler.ekstat.com/img/max/800/4/4pC1vcrYT6YFwjKB-636628626130377389.jpg');
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 200px;
   }
  
   
