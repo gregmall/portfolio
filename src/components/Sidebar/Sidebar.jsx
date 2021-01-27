@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Sidebar.css'
+
 export default function Sidebar() {
   return (
     <div>
@@ -15,9 +16,11 @@ export default function Sidebar() {
         <li><a href="/projects">Projects</a></li>
         <li><a href="/bio">Bio</a></li>
         <li><a href="/contact">Contact</a></li>
+        <li><a href="/files/Greg-Mall-Resume.pdf" target ="blank">Resume</a></li>
         
       </ul>
     </nav>
+ 
   </aside>
 
     </div>
