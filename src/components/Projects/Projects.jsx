@@ -3,7 +3,7 @@ import styles from './Projects.css';
 export default function Projects() {
   return (
     <>
-    <div className={styles.page}>
+    <div className={styles.title}>
       <h1>Projects</h1>
       </div>
     <div className={styles.home}>

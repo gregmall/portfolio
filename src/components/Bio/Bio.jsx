@@ -4,7 +4,7 @@ import styles from './Bio.css';
 export default function Bio() {
   return (
     <>
-      <div className={styles.page}>
+      <div className={styles.title}>
       <h1>Bio</h1>
       </div>
     

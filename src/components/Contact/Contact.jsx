@@ -2,9 +2,13 @@ import React from 'react'
 import styles from './Contact.css';
 export default function Contact() {
   return (
-    <div className = {styles.Contact}>
-    
+<>
+    <div className={styles.title}>
       <h1>Contact</h1>
+    </div>
+    <div className = {styles.Contact}>
+      
+     
      
       <div className = {styles.grow}>
       
@@ -15,5 +19,6 @@ export default function Contact() {
       
       </div>
     </div>
+    </>
   )
 }

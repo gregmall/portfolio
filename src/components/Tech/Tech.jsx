@@ -3,9 +3,11 @@ import styles from './Tech.css';
 export default function Tech() {
   return (
     <>
-    
-      <div className = {styles.Tech}>
+      <div className={styles.title}>
       <h1>Tech Stack</h1>
+      </div>
+      <div className = {styles.Tech}>
+     
       
       </div>
       <div className={styles.content}>
