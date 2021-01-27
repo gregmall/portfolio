@@ -35,9 +35,7 @@ display: flex;
     }
   }
 }
-span{
-  visibility: hidden;
-}
+
 .content{
   display: flex;
   flex-wrap: wrap;
@@ -50,10 +48,45 @@ span{
 .box{
   display: grid;
   margin-right: 40px;
+  text-align: center;
   h2{
     color:rgb(107, 54, 231);
   }
 
   
+}
+
+.tooltip{
+
+  
+  caption{
+  visibility: hidden;
+  z-index: 1;
+  text-align: center;
+  
+  
+  
+  
+
+
+
+  }
+}
+.tooltip:hover {
+  img{
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  }
+  caption {
+
+    visibility: visible;
+    transform: translateX(55px);
+    transition: .3s linear;
+  
+
+    
+  }
 }
 
