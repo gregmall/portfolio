@@ -11,7 +11,7 @@ export default function Sidebar() {
     <nav className={styles.nav}>
       
       <ul className={styles.active}>
-        <li ><a href="/">Home</a></li>
+        {/* <li ><a href="/">Home</a></li> */}
         <li><a href="/techstack">Tech Stack</a></li>
         <li><a href="/projects">Projects</a></li>
         <li><a href="/bio">Bio</a></li>

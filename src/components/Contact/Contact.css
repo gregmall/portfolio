@@ -7,30 +7,29 @@
   h1{
     
 
-      display:flex;
-      justify-content: flex-end;
-      position: fixed;
-      top: 0;
-      right: 0;
-      margin-right:10px;
-      
-      background: 50% 100% / 50% 50% no-repeat
-      radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    display:flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right:10px;
+    background: 50% 100% / 50% 50% no-repeat
+    radial-gradient(ellipse at bottom, #fff, transparent, transparent);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     font-size: 10vw;
     font-family: "Source Sans Pro", sans-serif;
     animation: reveal 3000ms ease-in-out forwards 200ms,
-     glow 2500ms linear infinite 2000ms;
+    glow 2500ms linear infinite 2000ms;
     
     @keyframes reveal {
-    80%{
-    letter-spacing: 8px;
-    }
-    100% {
-    background-size: 300% 300%;
-    }
+      80%{
+        letter-spacing: 8px;
+      }
+      100% {
+        background-size: 300% 300%;
+      }
     }
   }
 }
@@ -40,32 +39,24 @@ span{
   visibility: hidden;
   z-index: 1;
   opacity: .40;
-  
   width: 100%;
   padding: 0px 20px;
-
   background: #333;
   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
   0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
   color: #2184cf; 
   text-shadow: 0 0 5px #2bb4a0, 0 0 15px #09916c, 0 0 20px #00ff5e, 0 0 40px #0d7a81, 0 0 60px #0b5897, 0 0 10px #064987, 0 0 98px #054d91;
   color: #25c695;
-
-text-align: center;
-animation: blink 12s infinite;
--webkit-animation: blink 12s infinite;
-  
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
   position: absolute;
   top:50%;
   left:100%;
-  
-
   border-radius: 9px;
   font: 16px;
-
   transform: translateY(9px);
   transition: all 0.3s ease-in-out;
-  
   box-shadow: 0 0 3px rgba(56, 54, 54, 0.86);
   
 }
