@@ -9,7 +9,7 @@ export default function Tech() {
       <div className = {styles.Tech}>
      
       
-      </div>
+     
       <div className={styles.content}>
       <div className={styles.box}>
         <h2>Development</h2>
@@ -85,6 +85,7 @@ export default function Tech() {
         </div>
       </div>
       
+    </div>
     </div>
     </>
     
