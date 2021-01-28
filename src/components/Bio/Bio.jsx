@@ -16,8 +16,9 @@ export default function Bio() {
     
       <div className={styles.music}>
         <h1>....music</h1>
-        <div>
+        <div className={styles.description}>
         <p>Music has been a lifelong passion of mine.  I've been playing a musical instrument of some kind since i was 8 years old.  I've always been drawn the the creativity of sound.  I joined my first band in highschool and have been playing in one band or another ever since.  </p>
+        </div>
         <div className={styles.cede}>
         <h3>Cede the Clouds</h3>
         <img src="https://scontent.fhio2-2.fna.fbcdn.net/v/t1.0-9/48368437_2218654741585377_2919862245498290176_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_ohc=sYsOgRmawK8AX-IETVk&_nc_ht=scontent.fhio2-2.fna&oh=681768f92c7ae30b85ebd6560dd7d8c7&oe=60271CC2" />
@@ -29,7 +30,7 @@ export default function Bio() {
    display="initial"
    />
    </div>
-   </div>
+   
 <div className={styles.pigs}>
    <h3>Feral Pigs</h3>
    <img src="https://scontent.fhio2-2.fna.fbcdn.net/v/t1.0-9/430573_367092509968069_1524082485_n.jpg?_nc_cat=104&ccb=2&_nc_sid=cdbe9c&_nc_ohc=rZVLShOFhJ0AX_74K9D&_nc_ht=scontent.fhio2-2.fna&oh=d98566eebfb146bef41628f56b63318e&oe=602515EE"/>
@@ -51,8 +52,9 @@ export default function Bio() {
    display="initial"/>
  </div>
    </div>
-   <div>
-     <h1>...art</h1>
+   <h1>...art</h1>
+   <div className={styles.art}>
+     
      <p>I've always been an artist and a maker so when I was introduced to the art of glass blowing I was hooked!  I loved it so much I made it a career for 20 years.  Its the perfect combination of technique and vision.  </p>
    <Iframe url="https://www.youtube.com/embed/xQi3GUlW3K4"
     width="350px"

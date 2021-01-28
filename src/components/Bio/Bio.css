@@ -57,31 +57,34 @@
       width:300px
     }
     .about {
-      border-radius: 1em;
-     
+      display: flex;
+      flex-wrap: wrap;
+    
   
-      width: 50%;
-      padding: 20px;
-      resize: both;
-      overflow: auto;
-   
-     
-      margin:20px;
-      transition: transform .2s;
+  
+  width: 50%;
+  padding: 20px;
+  resize: both;
+  
 
     }
-    .music{
-      border-radius: 1em;
+    .description{
+      display: flex;
+      flex-wrap: wrap;
      
   
-      width: 50%;
-      padding: 20px;
-      resize: both;
-      overflow: auto;
-   
-     
-      margin:20px;
-      transition: transform .2s;
+  
+  width: 50%;
+  padding: 20px;
+  resize: both;
+  
+ 
+  
+    }
+    .music{
+      display: grid;
+      justify-content: center;
+
     }
     .cede {
       
@@ -140,11 +143,16 @@
      
       }
     }
+    .art{
+      display: flex;
+      flex-wrap: wrap;
+      border-radius: 1em;
+  
+  
+  width: 50%;
+  padding: 20px;
+  resize: both;
+  
+    }
   
   }
-
-  
-
-
-
-
