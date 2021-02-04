@@ -8,6 +8,7 @@
   display:flex;
   
   
+  
   ul{
   
     position: fixed;
@@ -40,3 +41,45 @@
 
   
 }
+.nav{
+  opacity: 0;
+}
+@media (max-width: 602px){
+.nav{
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  ul{
+  
+    position: fixed;
+    top: 200px;
+    left: 0;
+    list-style-type: none;
+    margin-top: 20px;
+    
+  }
+  li{
+    margin-top: 20px;
+  }
+  a {
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    color: #00ff5e;
+    display: block;
+    transition: all ease-out 300ms;
+  }
+a:hover{
+    color: white;
+    transform: scale(1.3);
+    transition: 1s ease;
+    
+  }
+  
+ 
+}
+}
+

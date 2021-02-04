@@ -10,6 +10,16 @@
   margin-top: 200px;
   margin-bottom: 200px;
   font-size: 0.65em;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 602px){
+  .sidebar{
+  display: none;
+  }
+  .minside{
+    display:none;
+  }
 }
 
 
@@ -28,6 +38,8 @@
   }
   
   li {
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     margin: 3.2em 0;
   }
@@ -50,4 +62,4 @@
     
  
   }
- 
+
