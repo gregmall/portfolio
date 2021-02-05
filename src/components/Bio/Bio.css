@@ -41,7 +41,7 @@
     font-family: 'News Cycle', sans-serif;
     
     img{
-      width: 150px;
+      width: 20vh;
      
     }
     img:hover{
@@ -54,7 +54,8 @@
       width: 500px;
     }
     Iframe{
-      width:300px
+      width:300px;
+      margin-bottom:40px;
     }
     .about {
       display: flex;
@@ -88,7 +89,7 @@
     }
     .cede {
       
-      width: 50%;
+      
       color: white;
       opacity: .7;
       padding: 10px;
@@ -96,10 +97,10 @@
       overflow: auto;
       background-image: url('https://ak.picdn.net/shutterstock/videos/5935670/thumb/1.jpg');
       border-radius: 5px;
-      margin-bottom: 10px;
-      margin-right: 100px;
+     
       transition: transform .2s;
       h3{
+        position: absolute;
         color: white;
         display:flex;
         justify-content: flex-end;
@@ -108,7 +109,7 @@
     }
     .pigs{
       background-image: url('https://1388rt3s63ww26xq2217rr5my4t-wpengine.netdna-ssl.com/wp-content/uploads/Guide-Outdoors-OffSeason-Hog-Hunting-1024x346.jpg');
-      width: 50%;
+      
       color: white;
       opacity: .7;
       padding: 10px;
@@ -117,15 +118,16 @@
       border-radius: 5px;
       transition: transform .2s;
       h3{
+        
         color: white;
         display:flex;
-        justify-content: flex-end;
+        justify-content:center;
      
       }
 
     }
     .secondafter{
-      width: 50%;
+      
       color: white;
       opacity: .7;
       padding: 10px;
@@ -133,10 +135,10 @@
       overflow: auto;
       background-image: url('https://seyler.ekstat.com/img/max/800/4/4pC1vcrYT6YFwjKB-636628626130377389.jpg');
       border-radius: 5px;
-      margin-top: 10px;
-      margin-right: 200px;
+    
       transition: transform .2s;
       h3{
+        
         color: white;
         display:flex;
         justify-content: flex-end;
@@ -156,3 +158,17 @@
     }
   
   }
+  .slider {
+    border: 1px var(--line) solid;
+    padding: 2%;
+    height: 395px;
+    
+    
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
