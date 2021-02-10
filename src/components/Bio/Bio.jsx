@@ -43,7 +43,7 @@ export default function Bio() {
     </AwesomeSlider>
   )
   return (
-    <>
+    <div className={styles.page}>
       <div className={styles.title}>
       <h1>Bio</h1>
       </div>
@@ -77,7 +77,6 @@ export default function Bio() {
         </div>
 
 </div>
-</>
+</div>
   )
 }
-
