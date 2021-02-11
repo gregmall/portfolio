@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
-
+@media (max-width: 525px){
+  h1, h4{
+  font-size: smaller;
+  }
+  
+}
 .header {
   height: 90px;
   position: relative;
