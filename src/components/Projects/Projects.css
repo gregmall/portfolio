@@ -32,11 +32,13 @@
   }
 }
  @media (max-width: 660px){
+  .main{
   img{
   display: none;
   }
   
 }
+ }
 .main{
   border-radius: 1em;
   background-color:black;
