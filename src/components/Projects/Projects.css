@@ -30,7 +30,13 @@
     text-shadow: 0 0 8px #fff;
     }
   }
-} 
+}
+ @media (max-width: 660px){
+  img{
+  display: none;
+  }
+  
+}
 .main{
   border-radius: 1em;
   background-color:black;
@@ -44,6 +50,7 @@
   margin:20px;
   transition: transform .2s;
   img{
+  
     float:right;
     width:250px;
   }
