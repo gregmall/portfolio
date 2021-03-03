@@ -11,7 +11,7 @@ export default function Bio() {
     <AwesomeSlider cssModule={builtInSliderStyles} className={styles.slider}>
       <div className={styles.cede}>
         <h3>Cede the Clouds</h3>
-        <img src="public/assets/cede.jpg" />
+        <img src="/assets/cede.jpg" />
         <Iframe url="https://bandcamp.com/EmbeddedPlayer/album=2964969569/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=2130197304/transparent=true/" 
         width="400px"
         height="120px"
@@ -22,7 +22,7 @@ export default function Bio() {
       </div>
       <div className={styles.pigs}>
         <h3>Feral Pigs</h3>
-        <img src="public/assets/pigs.jpg"/>
+        <img src="/assets/pigs.jpg"/>
         <Iframe url="https://www.reverbnation.com/widget_code/html_widget/artist_2390217?widget_id=55&pwc[song_ids]=17216491&context_type=song&spoid=artist_2390217"
         width="400px"
         height="120px"
@@ -32,7 +32,7 @@ export default function Bio() {
       </div>
       <div className={styles.secondafter}>
         <h3>Secondafter</h3>
-        <img src="public/assets/secondafter.jpg"/>
+        <img src="/assets/secondafter.jpg"/>
         
         <Iframe url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/614894913&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
           height="100px"
