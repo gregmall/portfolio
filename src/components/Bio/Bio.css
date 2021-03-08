@@ -96,6 +96,26 @@
       margin-left:100px;
 
     }
+    .letterbomb {
+      
+      
+      color: white;
+      opacity: .7;
+      padding: 10px;
+      resize: both;
+      overflow: auto;
+      background-image: url('https://pbs.twimg.com/media/EC8lIYqWwAEjwo9.jpg');
+      border-radius: 5px;
+     
+      transition: transform .2s;
+      h3{
+        position: absolute;
+        color: white;
+        display:flex;
+        justify-content: flex-end;
+     
+      }
+    }
     .cede {
       
       
@@ -152,8 +172,11 @@
         display:flex;
         justify-content: flex-end;
      
+
       }
+      
     }
+    
     .art{
       display: flex;
       flex-wrap: wrap;

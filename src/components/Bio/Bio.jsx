@@ -40,6 +40,17 @@ export default function Bio() {
         
         display="initial"/>
       </div>
+      <div className={styles.letterbomb}>
+        <h3>Letterbomb</h3>
+        <img src="/assets/letterbomb.jpeg"/>
+        
+        <Iframe url="https://bandcamp.com/EmbeddedPlayer/album=4151615140/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
+          width="400px"
+          height="120px"
+        id="myId"
+        
+        display="initial"/>
+      </div>
     </AwesomeSlider>
   )
   return (
