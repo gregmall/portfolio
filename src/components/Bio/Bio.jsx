@@ -48,7 +48,6 @@ export default function Bio() {
           width="400px"
           height="120px"
         id="myId"
-        
         display="initial"/>
       </div>
     </AwesomeSlider>
