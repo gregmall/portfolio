@@ -47,6 +47,8 @@ display:flex;
   display: grid;
   margin-right: 40px;
   text-align: center;
+  z-index: 99;
+
   h2{
     color:rgb(107, 54, 231);
   }
