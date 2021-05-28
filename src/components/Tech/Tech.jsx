@@ -16,32 +16,32 @@ export default function Tech() {
         <div className={styles.tooltip}>
       
         
-        <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png"/>
+        <img src="public/techs/jslogo.webp"/>
        
         <caption>JavaScript</caption>
         
         </div>
         <div className={styles.tooltip}>
-        <img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/html5-512.png" />
+        <img src="public/techs/htmllogo.png" />
         <caption>HTML5</caption>
         </div>
         <div className={styles.tooltip}>
-        <img src="https://cdn.iconscout.com/icon/free/png-256/css-37-226088.png" />
+        <img src="public/techs/csslogo.webp" />
         <caption>CSS3</caption>
         </div>
       </div>
       <div className={styles.box}>
         <h2>Frameworks</h2>
         <div className={styles.tooltip}>
-        <img src="https://i.pinimg.com/originals/f3/47/70/f34770503b90f26ea389f557500ff825.png"/>
+        <img src="public/techs/reactlogo.png"/>
         <caption>ReactJS</caption>
         </div>
         <div className={styles.tooltip}>
-        <img src="https://cdn.iconscout.com/icon/free/png-512/nodejs-2-226035.png" />
+        <img src="public/techs/nodelogo.webp" />
         <caption>NodeJS</caption>
         </div>
         <div className={styles.tooltip}>
-        <img src="https://codedistrict.io/wp-content/uploads/2017/12/reduxLogo.png" />
+        <img src="public/techs/kisspng-redux-react-javascript-vue-js-single-page-applicat-5af5cde424ee15.8061979615260584681513.png" />
         <caption>Redux</caption>
         </div>
 
@@ -50,37 +50,37 @@ export default function Tech() {
      
         <h2>Dev Tools</h2>
         <div className={styles.tooltip}>
-        <img src="https://visualpharm.com/assets/624/Github-595b40b85ba036ed117dc155.svg" />
+        <img src="public/techs/githublogo.png" />
         <caption>Github</caption>
         </div>
         <div className={styles.tooltip}>
-        <img src="https://cdn.iconscout.com/icon/free/png-512/heroku-225989.png" />
+        <img src="public/techs/herokulogo.webp" />
         <caption>Heroku</caption>
         </div>
         <div className={styles.tooltip}>
-        <img src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/netlify-512.png"/>
+        <img src="public/techs/netlifylogo.png"/>
         <caption>Netlify</caption>
         </div>
       </div>
       <div className={styles.box}>
         <h2>Testing Suites</h2>
         <div className={styles.tooltip}>
-        <img src ="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jest-512.png"  />
+        <img src ="public/techs/jestlogo.webp"  />
         <caption>Jest</caption>
         </div>
         <div className={styles.tooltip}>
-        <img src="https://camo.githubusercontent.com/268d38a4e2d2a7fb1beacd8f8fbed0ae919edc0f13f60d3c10d30d1ec0d797e3/687474703a2f2f692e696d6775722e636f6d2f5935597a6f44752e706e67" />
+        <img src="public/techs/quinitlogo.com.png" />
         <caption>QUnit</caption>
         </div>
       </div>
       <div className={styles.box}>
         <h2>Database</h2>
         <div className={styles.tooltip}>
-        <img src="https://cdn.iconscout.com/icon/free/png-512/postgresql-11-1175122.png" />
+        <img src="public/techs/postgresqllogo.webp" />
         <caption>PostgreSQL</caption>
         </div>
         <div className={styles.tooltip}>
-        <img src="https://cdn.iconscout.com/icon/free/png-512/mysql-19-1174939.png"/>
+        <img src="public/techs/mysqllogo.webp"/>
         <caption>MySQL</caption>
         </div>
       </div>
