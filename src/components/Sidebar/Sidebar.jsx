@@ -1,5 +1,6 @@
-import React from 'react'
-import styles from './Sidebar.css'
+/* eslint-disable max-len */
+import React from 'react';
+import styles from './Sidebar.css';
 
 export default function Sidebar() {
   return (
@@ -18,10 +19,10 @@ export default function Sidebar() {
         
         </nav>
  
-       </aside>
+      </aside>
       
 
     </div>
-  )
+  );
 }
 
