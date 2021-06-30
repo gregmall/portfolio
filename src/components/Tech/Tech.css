@@ -66,7 +66,7 @@ display:flex;
   }
 }
 .tooltip:hover {
-  img{
+  img {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
